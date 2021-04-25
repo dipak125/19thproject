@@ -15,7 +15,7 @@ const ChildComponent=(props)=>{
                         <tr>
                             <td>{student.id}</td>
                             <td>{student.name}</td>
-                            <td><button onClick={()=>setSelectedStudent(student.id)}>view</button>
+                            <td><button onClick={()=>setSelectedStudent(student.id)}>view details</button>
                             <button onClick={()=>deleteStudent(student.id)}>Delete</button></td>
                         </tr>
                         )
